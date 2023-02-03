@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* Main */
+
+#main-container {
+    align-items: center;
+    background-color: #FBEF68;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    line-height: 50px;
+}
+
+.main-button {
+    border: none;
+    background-image: linear-gradient(to right, #DD207F, #E2407B, #E16120, #47A738, #642582, #3C9DE1, #47A738 );
+    border-radius: 100px;
+    padding: .7rem;
+    width: 300px;
+}
+
+.main-button a {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 23px;
+    text-decoration: none;
+
+}
+
+.main-button:hover {
+    background-image: linear-gradient(to left, #DD207F, #E2407B, #E16120, #47A738, #642582, #3C9DE1, #47A738 );
+    transform: scale(1.1);
+}
+
+/* Eventos */
+
+#evento-container {
+    background-color: #FBEF68;
+    height: 100vh;
+}
+
+#evento-container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.evento-card-container {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.evento-card {
+    padding: 1rem;
+    line-height: 30px;
+}
+
+.evento-card h3 {
+    font-size: 23px;
+    font-family: 'Fredoka One', cursive;
+    /* text-align: center; */
+}
+
+.evento-card h4 {
+    color:#471515;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Cutive Mono', monospace; */
+}
+
+.evento-card p {
+    color: #471515;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Localizacao */
+
+#localizacao-container  {
+    background-color: #FBEF68;
+    line-height: 100px;
+}
+
+#localizacao-container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+
+/* Footer */
+
+#footer-container {
+    align-items: center;
+    background-color: #0C0B0B;
+    display: flex;
+    font-size: 17px;
+    height: 10vh;
+    justify-content: center;
+}
+
+#footer-container span {
+    color:whitesmoke;
+    font-weight:bold;
+    font-family: 'Ubuntu', sans-serif;
+}
