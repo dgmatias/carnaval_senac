@@ -4,6 +4,10 @@
 
 /* Main */
 
+body {
+    background-color: #FBEF68;
+}
+
 #main-container {
     align-items: center;
     background-color: #FBEF68;
