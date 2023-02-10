@@ -116,13 +116,14 @@ body {
     justify-content: center;
 }
 
-#footer-container span {
+#footer-container a {
     color:whitesmoke;
     font-weight:bold;
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
+    text-decoration: none;
 }
 
-#footer-container span:hover {
+#footer-container a:hover {
     transform: scale(1.1);
 }
