@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/reset.css">
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/carousel-style.css">
     <title>Carnaval Senac</title>
 </head>
 <body>
@@ -23,12 +24,55 @@
              <div> <h2> <img src="static/img/img-carnaval_cropped-2_resized_resized.png" alt="Data do evento"> </h2> </div>
 
             <div>
-                <button class="main-button"> <a href=""> Saiba mais </a> </button>
+                <button class="main-button"> <a href="#containerproje"> Saiba mais </a> </button>
             </div>
 
         </div>
 
     </main>
+
+    <!-- Carousel -->
+
+    <section id="containerproje">
+
+        <div class="slide-container active">
+            <div class="slide">
+             <div class="contentproje">
+               <h3 id="drink">DRINKS REFRESCANTES</h3>
+               <p class="texto-c">Bebidas deliciosas e refrescantes, combinando perfeitamente com o clima tropical do carnval!</p>
+               <a href="./img/drink.jpg" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3 id="maquiagem">MAQUIAGEM ARTISTICA</h3>
+               <p class="texto-c">Maquiagens artísticas e profíssionais, para espalhar a beleza em nossa unidade!</p>
+                
+               </p>
+               <a href="./img/maquiagem.jpg" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+        
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3 id="abada">ABADÁ DE ACESSÓRIOS</h3>
+               <p class="texto-c">Uma oficina ensinando como fazer sucesso nas festas de carnavam com lindos acessórios!</p>
+               <a href="./img/acessorio.jpg" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+
+        
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
+    </section>
+
+    <script defer src="./main.js"></script>
 
     <!-- Eventos -->
 
@@ -42,27 +86,27 @@
                 
                 <div class="evento-card">
 
-                    <div> <img src="static/img/drink.png" alt="img-card"> </div>
+                    <div> <img src="./static/img/face.png" alt="img-card"> </div>
                     <div> <h3>Embelezamento facial</h3> </div>
-                    <div> <h4>Prepare a pele para o carnaval</h4> </div>
+                    <div> <h4>Prepare a pele para as festas!</h4> </div>
                     <div> <p>9h00 às 11h00</p> </div>
 
                 </div>
                     
                 <div class="evento-card">
 
-                    <div> <img src="static/img/face.png" alt="img-card"> </div>
+                    <div> <img src="./static/img/yoga2.png" alt="img-card"> </div>
                     <div> <h3>Drenagem</h3> </div>
-                    <div> <h4>Prepare seu corpo para o carnaval</h4> </div>
+                    <div> <h4>Aproveite melhor seu corpo!</h4> </div>
                     <div> <p>9h00 às 11h00</p> </div>
 
                 </div>
     
                 <div class="evento-card">
 
-                    <div> <img src="static/img/livro.png" alt="img-card"> </div>
+                    <div> <img src="./static/img/livro.png" alt="img-card"> </div>
                     <div> <h3>Orientações de Saúde</h3> </div>
-                    <div> <h4>Vista a fantasia com prazer</h4> </div>
+                    <div> <h4>Festejando com responsabilidade!</h4> </div>
                     <div> <p>9h00 às 11h00 e 10h00 às 12h00</p> </div>
 
                 </div>
@@ -73,27 +117,27 @@
                 
                 <div class="evento-card">
 
-                    <div> <img src="static/img/yoga.png" alt="img-card"> </div>
+                    <div> <img src="./static/img/pente.png" alt="img-card"> </div>
                     <div> <h3>Pentado Carnavalesco</h3> </div>
-                    <div> <h4>Faça um penteado para curtir o carnaval</h4> </div>
+                    <div> <h4>Faça um penteado diferente!</h4> </div>
                     <div> <p>10h00 às 12:00</p> </div>
 
                 </div>
 
                 <div class="evento-card">
 
-                    <div> <img src="static/img/pente.png" alt="img-card"> </div>
+                    <div> <img src="./static/img/mãos.png" alt="img-card"> </div>
                     <div> <h3>Shiatsu de Carnaval</h3> </div>
-                    <div> <h4>Relaxe seu corpo para cutir o carnaval</h4> </div>
+                    <div> <h4>Formas diferentes de relaxar!</h4> </div>
                     <div> <p>13h30 às 15h30</p> </div>
 
                 </div>
 
                 <div class="evento-card">
 
-                    <div> <img src="static/img/mãos.png" alt="img-card"> </div>
+                    <div> <img src="./static/img/maquiagem.png" alt="img-card"> </div>
                     <div> <h3>Maquiagem Artística</h3> </div>
-                    <div> <h4>Fazendo maquiagem para o carnaval</h4> </div>
+                    <div> <h4>Fazendo maquiagem carnavalesca!</h4> </div>
                     <div> <p>15h00 às 17h00</p> </div>
 
                 </div>
@@ -104,18 +148,18 @@
 
                 <div class="evento-card">
 
-                    <div> <img src="static/img/menina.png" alt="img-card"> </div>
+                    <div> <img src="./static/img/drink.png" alt="img-card"> </div>
                     <div> <h3>Drinks Refrescantes</h3> </div>
-                    <div> <h4>Workshop de drink alcoólico e sacolés para curtir o bloquinho</h4> </div>
+                    <div> <h4>Workshop de drink/sacolés para curtir!</h4> </div>
                     <div> <p>15h00 às 17h00</p> </div>
 
                 </div>
 
                 <div class="evento-card">
 
-                    <div> <img src="static/img/mascara.png" alt="img-card"> </div>
-                    <div> <h3>Odicina de Abadê e Acessórios</h3> </div>
-                    <div> <h4>Fazendo acessórios para o carnaval</h4> </div>
+                    <div> <img src="./static/img/mascara.png" alt="img-card"> </div>
+                    <div> <h3>Oficina de Abadá/Acessórios</h3> </div>
+                    <div> <h4>Fazendo acessórios diversos!</h4> </div>
                     <div> <p>15h00 às 17h00</p> </div>
 
                 </div>

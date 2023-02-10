@@ -81,6 +81,11 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.evento-card img {
+    margin: auto;
+    
+}
+
 /* Localizacao */
 
 #localizacao-container  {
